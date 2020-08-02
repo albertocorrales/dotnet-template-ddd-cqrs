@@ -1,0 +1,172 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29709.97
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".SolutionItems", ".SolutionItems", "{0E9CF468-CA55-4E31-BC5B-D6103601079B}"
+	ProjectSection(SolutionItems) = preProject
+		nuget.config = nuget.config
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroserviceTemplate.Query.Api", "src\MicroserviceTemplate.Query\MicroserviceTemplate.Query.Api\MicroserviceTemplate.Query.Api.csproj", "{F683F2A5-09A4-4006-AEF8-4D615274E12C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Application", "2 - Application", "{8A77B1E4-91C9-44C0-A014-2DF09C24B933}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Domain", "3 - Domain", "{C71C271A-4F36-4B78-9B8F-C0E5E579BC4F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Data", "4 - Data", "{D30DBD73-3192-4036-AED6-8A93AAC3AC21}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroserviceTemplate.Domain", "src\MicroserviceTemplate.Domain\MicroserviceTemplate.Domain\MicroserviceTemplate.Domain.csproj", "{442121ED-815C-49C8-966C-7C14A41AF0D5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.2 - Query", "2.2 - Query", "{154D99EB-5A67-427C-AFAD-CB56F9BF9FD7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.1 - Command", "2.1 - Command", "{EFA17B49-EF65-41D5-9E54-329531525C84}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.3 - Projection", "2.3 - Projection", "{359AFDD1-2B85-4DB2-AEB3-CA4BCC3F6FCD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroserviceTemplate.Command.Api", "src\MicroserviceTemplate.Command\MicroserviceTemplate.Command.Api\MicroserviceTemplate.Command.Api.csproj", "{D48A1FA4-E5F5-4EB2-B7CC-10379A1046AE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroserviceTemplate.Command.Application", "src\MicroserviceTemplate.Command\MicroserviceTemplate.Command.Application\MicroserviceTemplate.Command.Application.csproj", "{30698517-9FD3-4E1D-A1FC-1072F2E822C3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroserviceTemplate.Projection.Service", "src\MicroserviceTemplate.Projection\MicroserviceTemplate.Projection.Service\MicroserviceTemplate.Projection.Service.csproj", "{1D053A20-7164-496E-B291-F8C11B09CC6C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroserviceTemplate.Projection.Application", "src\MicroserviceTemplate.Projection\MicroserviceTemplate.Projection.Application\MicroserviceTemplate.Projection.Application.csproj", "{59AFF3C6-AD08-4145-8680-47934BE14A92}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroserviceTemplate.Query.Application", "src\MicroserviceTemplate.Query\MicroserviceTemplate.Query.Application\MicroserviceTemplate.Query.Application.csproj", "{6C83980C-6342-44B8-BE1E-4051207A0430}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroserviceTemplate.Data", "src\MicroserviceTemplate.Data\MicroserviceTemplate.Data\MicroserviceTemplate.Data.csproj", "{B9EE0B41-C980-47F3-9FB9-A982223EC2B1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - DistributedServices", "1 - DistributedServices", "{B73F5D23-FF91-4284-837A-C7927F5CDB1A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.1 - WebAPI Command", "1.1 - WebAPI Command", "{67BA3E01-9CE5-4A4B-9BA0-F0E79BC1F086}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.2 - WebAPI Query", "1.2 - WebAPI Query", "{DB28A532-D69A-41B5-91E7-A320A73C0A4F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.3 - Service Projector", "1.3 - Service Projector", "{0E00B8FA-4040-49C6-869F-1F40940E34A3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{31775361-E1FA-4D16-A06F-0DDF5D33AD32}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{49941B00-3E55-4AC3-BBD0-608A5C59D6E0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTests", "UnitTests", "{93E4B173-FD16-4751-B876-9C9575E17BCB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Application", "2 - Application", "{12087E55-290C-4739-8B44-81392FA21C7B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Domain", "3 - Domain", "{68F61771-901C-4191-891D-287EBE822425}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Data", "4 - Data", "{F5172158-C599-4278-8ED2-6D144917FE16}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.1 - Command", "2.1 - Command", "{D89103FA-CF8B-412E-A1A4-42F9E64C65A4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.2 - Query", "2.2 - Query", "{769962BB-F731-4767-ADDE-C804103E827F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.3 - Projection", "2.3 - Projection", "{96182B12-C414-4C59-8D3E-DCD95989E8E1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroserviceTemplate.Query.Application.UnitTests", "tests\UnitTests\MicroserviceTemplate.Query.Application.UnitTests\MicroserviceTemplate.Query.Application.UnitTests.csproj", "{4CB71623-D2C1-4474-A5FF-D6B1171DD302}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroserviceTemplate.Command.Application.UnitTests", "tests\UnitTests\MicroserviceTemplate.Command.Application.UnitTests\MicroserviceTemplate.Command.Application.UnitTests.csproj", "{ADF05383-7FC1-4D53-A6FF-E91C03C48A3A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroserviceTemplate.Projection.Application.UnitTests", "tests\UnitTests\MicroserviceTemplate.Projection.Application.UnitTests\MicroserviceTemplate.Projection.Application.UnitTests.csproj", "{F000236D-BE4B-4679-9E01-A0B4FDE91956}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroserviceTemplate.Domain.UnitTests", "tests\UnitTests\MicroserviceTemplate.Domain.UnitTests\MicroserviceTemplate.Domain.UnitTests.csproj", "{5C353F10-ABCF-43E2-8E9E-01C23364503F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroserviceTemplate.Data.UnitTests", "tests\UnitTests\MicroserviceTemplate.Data.UnitTests\MicroserviceTemplate.Data.UnitTests.csproj", "{C3FF000B-A9C2-418D-B618-60821C5D1A55}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F683F2A5-09A4-4006-AEF8-4D615274E12C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F683F2A5-09A4-4006-AEF8-4D615274E12C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F683F2A5-09A4-4006-AEF8-4D615274E12C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F683F2A5-09A4-4006-AEF8-4D615274E12C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{442121ED-815C-49C8-966C-7C14A41AF0D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{442121ED-815C-49C8-966C-7C14A41AF0D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{442121ED-815C-49C8-966C-7C14A41AF0D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{442121ED-815C-49C8-966C-7C14A41AF0D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D48A1FA4-E5F5-4EB2-B7CC-10379A1046AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D48A1FA4-E5F5-4EB2-B7CC-10379A1046AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D48A1FA4-E5F5-4EB2-B7CC-10379A1046AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D48A1FA4-E5F5-4EB2-B7CC-10379A1046AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30698517-9FD3-4E1D-A1FC-1072F2E822C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30698517-9FD3-4E1D-A1FC-1072F2E822C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30698517-9FD3-4E1D-A1FC-1072F2E822C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30698517-9FD3-4E1D-A1FC-1072F2E822C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D053A20-7164-496E-B291-F8C11B09CC6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D053A20-7164-496E-B291-F8C11B09CC6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D053A20-7164-496E-B291-F8C11B09CC6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D053A20-7164-496E-B291-F8C11B09CC6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59AFF3C6-AD08-4145-8680-47934BE14A92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59AFF3C6-AD08-4145-8680-47934BE14A92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59AFF3C6-AD08-4145-8680-47934BE14A92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59AFF3C6-AD08-4145-8680-47934BE14A92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C83980C-6342-44B8-BE1E-4051207A0430}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C83980C-6342-44B8-BE1E-4051207A0430}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C83980C-6342-44B8-BE1E-4051207A0430}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C83980C-6342-44B8-BE1E-4051207A0430}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9EE0B41-C980-47F3-9FB9-A982223EC2B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9EE0B41-C980-47F3-9FB9-A982223EC2B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9EE0B41-C980-47F3-9FB9-A982223EC2B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9EE0B41-C980-47F3-9FB9-A982223EC2B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CB71623-D2C1-4474-A5FF-D6B1171DD302}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CB71623-D2C1-4474-A5FF-D6B1171DD302}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CB71623-D2C1-4474-A5FF-D6B1171DD302}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CB71623-D2C1-4474-A5FF-D6B1171DD302}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADF05383-7FC1-4D53-A6FF-E91C03C48A3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADF05383-7FC1-4D53-A6FF-E91C03C48A3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADF05383-7FC1-4D53-A6FF-E91C03C48A3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADF05383-7FC1-4D53-A6FF-E91C03C48A3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F000236D-BE4B-4679-9E01-A0B4FDE91956}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F000236D-BE4B-4679-9E01-A0B4FDE91956}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F000236D-BE4B-4679-9E01-A0B4FDE91956}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F000236D-BE4B-4679-9E01-A0B4FDE91956}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C353F10-ABCF-43E2-8E9E-01C23364503F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C353F10-ABCF-43E2-8E9E-01C23364503F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C353F10-ABCF-43E2-8E9E-01C23364503F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C353F10-ABCF-43E2-8E9E-01C23364503F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3FF000B-A9C2-418D-B618-60821C5D1A55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3FF000B-A9C2-418D-B618-60821C5D1A55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3FF000B-A9C2-418D-B618-60821C5D1A55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3FF000B-A9C2-418D-B618-60821C5D1A55}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F683F2A5-09A4-4006-AEF8-4D615274E12C} = {DB28A532-D69A-41B5-91E7-A320A73C0A4F}
+		{8A77B1E4-91C9-44C0-A014-2DF09C24B933} = {31775361-E1FA-4D16-A06F-0DDF5D33AD32}
+		{C71C271A-4F36-4B78-9B8F-C0E5E579BC4F} = {31775361-E1FA-4D16-A06F-0DDF5D33AD32}
+		{D30DBD73-3192-4036-AED6-8A93AAC3AC21} = {31775361-E1FA-4D16-A06F-0DDF5D33AD32}
+		{442121ED-815C-49C8-966C-7C14A41AF0D5} = {C71C271A-4F36-4B78-9B8F-C0E5E579BC4F}
+		{154D99EB-5A67-427C-AFAD-CB56F9BF9FD7} = {8A77B1E4-91C9-44C0-A014-2DF09C24B933}
+		{EFA17B49-EF65-41D5-9E54-329531525C84} = {8A77B1E4-91C9-44C0-A014-2DF09C24B933}
+		{359AFDD1-2B85-4DB2-AEB3-CA4BCC3F6FCD} = {8A77B1E4-91C9-44C0-A014-2DF09C24B933}
+		{D48A1FA4-E5F5-4EB2-B7CC-10379A1046AE} = {67BA3E01-9CE5-4A4B-9BA0-F0E79BC1F086}
+		{30698517-9FD3-4E1D-A1FC-1072F2E822C3} = {EFA17B49-EF65-41D5-9E54-329531525C84}
+		{1D053A20-7164-496E-B291-F8C11B09CC6C} = {0E00B8FA-4040-49C6-869F-1F40940E34A3}
+		{59AFF3C6-AD08-4145-8680-47934BE14A92} = {359AFDD1-2B85-4DB2-AEB3-CA4BCC3F6FCD}
+		{6C83980C-6342-44B8-BE1E-4051207A0430} = {154D99EB-5A67-427C-AFAD-CB56F9BF9FD7}
+		{B9EE0B41-C980-47F3-9FB9-A982223EC2B1} = {D30DBD73-3192-4036-AED6-8A93AAC3AC21}
+		{B73F5D23-FF91-4284-837A-C7927F5CDB1A} = {31775361-E1FA-4D16-A06F-0DDF5D33AD32}
+		{67BA3E01-9CE5-4A4B-9BA0-F0E79BC1F086} = {B73F5D23-FF91-4284-837A-C7927F5CDB1A}
+		{DB28A532-D69A-41B5-91E7-A320A73C0A4F} = {B73F5D23-FF91-4284-837A-C7927F5CDB1A}
+		{0E00B8FA-4040-49C6-869F-1F40940E34A3} = {B73F5D23-FF91-4284-837A-C7927F5CDB1A}
+		{93E4B173-FD16-4751-B876-9C9575E17BCB} = {49941B00-3E55-4AC3-BBD0-608A5C59D6E0}
+		{12087E55-290C-4739-8B44-81392FA21C7B} = {93E4B173-FD16-4751-B876-9C9575E17BCB}
+		{68F61771-901C-4191-891D-287EBE822425} = {93E4B173-FD16-4751-B876-9C9575E17BCB}
+		{F5172158-C599-4278-8ED2-6D144917FE16} = {93E4B173-FD16-4751-B876-9C9575E17BCB}
+		{D89103FA-CF8B-412E-A1A4-42F9E64C65A4} = {12087E55-290C-4739-8B44-81392FA21C7B}
+		{769962BB-F731-4767-ADDE-C804103E827F} = {12087E55-290C-4739-8B44-81392FA21C7B}
+		{96182B12-C414-4C59-8D3E-DCD95989E8E1} = {12087E55-290C-4739-8B44-81392FA21C7B}
+		{4CB71623-D2C1-4474-A5FF-D6B1171DD302} = {769962BB-F731-4767-ADDE-C804103E827F}
+		{ADF05383-7FC1-4D53-A6FF-E91C03C48A3A} = {D89103FA-CF8B-412E-A1A4-42F9E64C65A4}
+		{F000236D-BE4B-4679-9E01-A0B4FDE91956} = {96182B12-C414-4C59-8D3E-DCD95989E8E1}
+		{5C353F10-ABCF-43E2-8E9E-01C23364503F} = {68F61771-901C-4191-891D-287EBE822425}
+		{C3FF000B-A9C2-418D-B618-60821C5D1A55} = {F5172158-C599-4278-8ED2-6D144917FE16}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B3AE1177-CA20-4804-B9B2-75CF8F6EE49F}
+	EndGlobalSection
+EndGlobal

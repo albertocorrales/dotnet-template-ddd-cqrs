@@ -1,0 +1,22 @@
+﻿<?xml version="1.0"?>
+<doc>
+  <assembly>
+    <name>MicroserviceTemplate.Query.Api</name>
+  </assembly>
+  <members>
+    <member name="T:MicroserviceTemplate.Query.Api.LambdaEntryPoint">
+      <summary>
+        This class extends from APIGatewayProxyFunction which contains the method FunctionHandlerAsync which is the
+        actual Lambda function entry point. The Lambda handler field should be set to
+
+        MicroserviceTemplate.Query.Api::MicroserviceTemplate.Query.Api.LambdaEntryPoint::FunctionHandlerAsync
+      </summary>
+    </member>
+    <!-- Badly formed XML comment ignored for member "M:MicroserviceTemplate.Query.Api.LambdaEntryPoint.Init(Microsoft.AspNetCore.Hosting.IWebHostBuilder)" -->
+    <member name="T:MicroserviceTemplate.Query.Api.LocalEntryPoint">
+      <summary>
+        The Main function can be used to run the ASP.NET Core application locally using the Kestrel webserver.
+      </summary>
+    </member>
+  </members>
+</doc>

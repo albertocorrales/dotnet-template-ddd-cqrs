@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Fenergo.Nebula.Product.Command.Api</name>
+    </assembly>
+    <members>
+        <member name="T:Fenergo.Nebula.Product.Command.LambdaEntryPoint">
+            <summary>
+            This class extends from APIGatewayProxyFunction which contains the method FunctionHandlerAsync which is the 
+            actual Lambda function entry point. 
+            </summary>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:Fenergo.Nebula.Product.Command.LambdaEntryPoint.Init(Microsoft.AspNetCore.Hosting.IWebHostBuilder)" -->
+    </members>
+</doc>

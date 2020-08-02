@@ -1,0 +1,42 @@
+{
+  "author": "Alberto Corrales",
+  "classifications": [],
+  "description": "Template to create new domains",
+  "name": "MicroserviceTemplate",
+  "defaultName": "MicroserviceTemplate",
+  "identity": "MicroserviceTemplate.CSharp",
+  "groupIdentity": "MicroserviceTemplate",
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "shortName": "MicroserviceTemplate",
+  "sourceName": "MicroserviceTemplate",
+  "guids": [],
+  "primaryOutputs": [
+    {
+      "path": "src\\MicroserviceTemplate.Query\\MicroserviceTemplate.Query.Api\\MicroserviceTemplate.Query.Api.csproj"
+    },
+    {
+      "path": "src\\MicroserviceTemplate.Query\\MicroserviceTemplate.Query.Application\\MicroserviceTemplate.Query.Application.csproj"
+    },
+    {
+      "path": "src\\MicroserviceTemplate.Command\\MicroserviceTemplate.Command.Api\\MicroserviceTemplate.Command.Api.csproj"
+    },
+    {
+      "path": "src\\MicroserviceTemplate.Command\\MicroserviceTemplate.Command.Application\\MicroserviceTemplate.Command.Application.csproj"
+    },
+    {
+      "path": "src\\MicroserviceTemplate.Projection\\MicroserviceTemplate.Projection.Service\\MicroserviceTemplate.Projection.Service.csproj"
+    },
+    {
+      "path": "src\\MicroserviceTemplate.Projection\\MicroserviceTemplate.Projection.Application\\MicroserviceTemplate.Projection.Application.csproj"
+    },
+    {
+      "path": "src\\MicroserviceTemplate.Domain\\MicroserviceTemplate.Domain\\MicroserviceTemplate.Domain.csproj"
+    },
+    {
+      "path": "src\\MicroserviceTemplate.Data\\MicroserviceTemplate.Data\\MicroserviceTemplate.Data.csproj"
+    }
+  ]
+}

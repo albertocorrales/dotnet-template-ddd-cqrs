@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+    <metadata>
+        <id>MicroserviceTemplate</id>
+        <version>1.0.0</version>
+        <description>
+        MicroserviceTemplate
+    </description>
+        <authors>Alberto Corrales</authors>
+        <packageTypes>
+            <packageType name="Template" />
+        </packageTypes>
+        <title>MicroserviceTemplate</title>
+        <summary>MicroserviceTemplate</summary>
+        <projectUrl>https://github.com/albertocorrales/dotnet-template-ddd-cqrs</projectUrl>
+        <iconUrl>https://github.com/albertocorrales/dotnet-template-ddd-cqrs</iconUrl>
+        <tags>Microservice/DDD/CQRS</tags>
+    </metadata>
+    <files>
+        <file src=".\template\**" target="content" exclude=".\**\packages\**;**\bin\**;**\obj\**;**\.vs\**;**\*.user;" />
+    </files>
+</package>
